@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.row{
+    padding: 10px;
+    display: flex;
+    justify-content: 'center';
+    align-items: 'center';
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+text{
+    font-size: 13px;
+}
+.profile{
+    background-color: white;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.mydiv{
+    padding-bottom: 16px;
+  background-color: #c5c4c4;
+}
